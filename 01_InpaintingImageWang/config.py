@@ -9,7 +9,6 @@ config = {
     'eps': 1e-6,
     'epochs': 15,
     'bs': 64,
-    'mixup': 0.,
     'opt': 'ranger',
     'sh': 0.,
     'sa': 0,
@@ -18,7 +17,6 @@ config = {
     'act_fn': Mish,
     'fp16': 0,
     'pool': MaxPool,
-    'dump': 0,
     'runs': 1,
     'model': xresnet34
 }
