@@ -8,7 +8,7 @@
 - Pretext weights with head fine-tuning: **56.3%** accuracy
 
 
-Methodology:
+**Methodology**:
 
 We train a U-Net with an `xresnet34` backbone on the task of image inpainting in which it is tasked with "filling in" missing patches that have been cutout from an image.
 
